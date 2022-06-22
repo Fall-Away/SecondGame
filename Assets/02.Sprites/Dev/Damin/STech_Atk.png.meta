@@ -1,37 +1,34 @@
 fileFormatVersion: 2
-guid: f0679d22f28b1d646b22164f271759c3
+guid: 09472e52afeacdd4cbcf6cc6f9fc5928
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8876982103513976080
-    second: FTech_Atk_2
+      213: 5736595220688409642
+    second: STech_Atk_
   - first:
-      213: -6315513518622506708
-    second: FTech_Atk_4
+      213: -2311611162934208980
+    second: STech_Atk_1
   - first:
-      213: -36901645241785594
-    second: FTech_Atk_5
+      213: -2454916566106583977
+    second: STech_Atk_
   - first:
-      213: -1043933147074723360
-    second: FTech_Atk_0
+      213: -8197480847163600063
+    second: STech_Atk_3
   - first:
-      213: -2898453228504203607
-    second: FTech_Atk_1
+      213: -5236789979446967590
+    second: STech_Atk_4
   - first:
-      213: -8223645414086938508
-    second: FTech_Atk_3
+      213: -2857212589301879509
+    second: STech_Atk_5
   - first:
-      213: 2406602566505312843
-    second: FTech_Atk_6
+      213: -2463794946020369296
+    second: STech_Atk_6
   - first:
-      213: 2145203120370007612
-    second: FTech_Atk_7
+      213: -6415131830070716373
+    second: STech_Atk_7
   - first:
-      213: -3074147150714025335
-    second: FTech_Atk_8
-  - first:
-      213: -6596131620561376129
-    second: FTech_Atk_9
+      213: -6957245027845518320
+    second: STech_Atk_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,12 +142,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FTech_Atk_2
+      name: STech_Atk_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 103
-        width: 31
+        x: 70
+        y: 70
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24165d95fa7c9f40800000000000000
+      internalID: 5736595220688409642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STech_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 71
+        width: 20
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -159,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2bc822fcf9ec480800000000000000
-      internalID: -8876982103513976080
+      spriteID: c269a7e05e18befd0800000000000000
+      internalID: -2311611162934208980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_Atk_4
+      name: STech_Atk_
       rect:
         serializedVersion: 2
-        x: 0
-        y: 69
-        width: 32
-        height: 23
+        x: 22
+        y: 72
+        width: 10
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,19 +198,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2104547ae9ca58a0800000000000000
-      internalID: -6315513518622506708
+      spriteID: 75ccefbc3626eedd0800000000000000
+      internalID: -2454916566106583977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_Atk_5
+      name: STech_Atk_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 76
+        x: 0
+        y: 37
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143deb30a92bc3e80800000000000000
+      internalID: -8197480847163600063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STech_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 37
         width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad20db7624f2357b0800000000000000
+      internalID: -5236789979446967590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STech_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 45
+        width: 33
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -201,81 +261,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6036cbf2626ec7ff0800000000000000
-      internalID: -36901645241785594
+      spriteID: b2d23e6c9442958d0800000000000000
+      internalID: -2857212589301879509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_Atk_0
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 106
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e10b5f65543381f0800000000000000
-      internalID: -1043933147074723360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FTech_Atk_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 104
-        width: 25
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ae3ce43520a6c7d0800000000000000
-      internalID: -2898453228504203607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FTech_Atk_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 76
-        width: 32
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b42b7149848f56120800000000000000
-      internalID: 2406602566505312843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FTech_Atk_7
+      name: STech_Atk_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 47
+        y: 15
         width: 32
         height: 5
       alignment: 0
@@ -285,19 +282,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3eb6b84fda45cd10800000000000000
-      internalID: 2145203120370007612
+      spriteID: 07c9d03ec87decdd0800000000000000
+      internalID: -2463794946020369296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_Atk_8
+      name: STech_Atk_7
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
-        width: 33
+        y: 16
+        width: 32
         height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -306,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a4966347f6655d0800000000000000
-      internalID: -3074147150714025335
+      spriteID: b285551e69fd8f6a0800000000000000
+      internalID: -6415131830070716373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_Atk_9
+      name: STech_Atk_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 48
-        width: 31
-        height: 2
+        x: 64
+        y: 16
+        width: 32
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,8 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ca7b82d35d574a0800000000000000
-      internalID: -6596131620561376129
+      spriteID: 01c4aeb1286e27f90800000000000000
+      internalID: -6957245027845518320
       vertices: []
       indices: 
       edges: []
