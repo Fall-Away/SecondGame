@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class gun : MonoBehaviour
 {
+    //enemyMove en;
     Rigidbody2D rb;
     Vector3 vec;
   [SerializeField]private Transform playerpos;
@@ -11,6 +12,7 @@ public class gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //en=GetComponent<enemyMove>();
     rb= GetComponent<Rigidbody2D>();
     }
 
@@ -22,10 +24,19 @@ public class gun : MonoBehaviour
         float angel = Mathf.Atan2(direction.y ,direction.x)* Mathf.Rad2Deg;
            rb.rotation= angel;
 
-        if(Input.GetKeyDown(KeyCode.H))
+    /*    if(Input.GetKeyDown(KeyCode.H))
         {
             transform.eulerAngles= new Vector3(0,0,30);
 
-        }
+        }*/
+        // enemyMove en = GameObject.FindGameObjectsWithTag("enemy")
+        // if(en.isright==true )
+        // {
+        //         transform.eulerAngles = new Vector3(0,180,0);
+        // }
+        // else
+        // {
+        //         transform.eulerAngles = new Vector3(0,0,0);
+        // }
     }
 }

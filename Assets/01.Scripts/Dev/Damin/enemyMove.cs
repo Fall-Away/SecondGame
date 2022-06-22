@@ -24,6 +24,8 @@ public class enemyMove : MonoBehaviour
    private float creattime;
    [SerializeField]private float reroledtime;
    float reoledwiat;
+   private bool shoting=false;
+   public bool isright=false;
   
     // Start is called before the first frame update
     void Start()
@@ -52,34 +54,44 @@ public class enemyMove : MonoBehaviour
         {
 if(currenttime>creattime){
     reroledtime=0;
-if(reoledwiat<reoledwiat){
+if(reroledtime<reoledwiat){
    StartCoroutine("shot");
 }
 
 }
-else{
+else if(reoledwiat<reroledtime){
     StopCoroutine("shot");
+    
 }
         }
         else
         {
             //ChasePlayer();
+             
+            Invoke("ChasePlayer",1);
         }
     }
     void ChasePlayer()
     {
+       if(shoting==false)
+       {
      if(transform.position.x<player.position.x)
      {
+    
       rb2d.velocity = new Vector3(movespeed,0);  
        //transform.eulerAngles= new Vector3(0,0,0);
-      transform.eulerAngles = new Vector3(0,180,0);       
+      transform.eulerAngles = new Vector3(0,180,0);
+      isright=true;
+        
      }
      else
      {
+        isright=false;
           //transform.eulerAngles= new Vector3(0,180,0);
           rb2d.velocity = new Vector3(-movespeed,0);
           transform.eulerAngles = new Vector3(0,0,0);    
      }
+       }        
 
     }
     void SotpChase()
@@ -89,11 +101,16 @@ else{
     private IEnumerator shot()
     {
         SotpChase();
+    shoting=true;
         yield return new WaitForSeconds(reroledtime);
             
         Instantiate(enemyBullet, bullettr.transform.position,transform.rotation);
         currenttime=0;
+                 SotpChase();
+               
         yield return new WaitForSeconds(0.5f);
+shoting=false;
+
     }
     void shotnoco(){
             SotpChase();

@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: be460d5986c3d69408815062b30e28c1
+guid: 27ae42d3445846e4c96ca0b74d5516f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6941132241976671610
-    second: FTech_0
+      213: 4789658505286477197
+    second: A_Tech_-_Boss_0
   - first:
-      213: 4380412643188620001
-    second: FTech_1
+      213: -1246330549334430817
+    second: A_Tech_-_Boss_1
   - first:
-      213: 7967257963711268482
-    second: FTech_2
+      213: -8908996101019918335
+    second: A_Tech_-_Boss_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FTech_0
+      name: A_Tech_-_Boss_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 68
-        width: 31
-        height: 60
+        x: 28
+        y: 137
+        width: 59
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7db7069ffad35060800000000000000
-      internalID: 6941132241976671610
+      spriteID: d85670ba809487240800000000000000
+      internalID: 4789658505286477197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_1
+      name: A_Tech_-_Boss_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 68
-        width: 31
-        height: 60
+        x: 156
+        y: 137
+        width: 59
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea33ee271a5acc30800000000000000
-      internalID: 4380412643188620001
+      spriteID: f9b243ef7f424bee0800000000000000
+      internalID: -1246330549334430817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FTech_2
+      name: A_Tech_-_Boss_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 4
-        width: 31
-        height: 60
+        x: 28
+        y: 9
+        width: 59
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28689e8d7e2619e60800000000000000
-      internalID: 7967257963711268482
+      spriteID: 1002e5d7f33ec5480800000000000000
+      internalID: -8908996101019918335
       vertices: []
       indices: 
       edges: []
