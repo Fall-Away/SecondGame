@@ -1,12 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< Updated upstream
 # Visual Studio 15
-=======
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
-MinimumVisualStudioVersion = 10.0.40219.1
->>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{BE8D002E-E021-200B-FB46-6562A6D9CC4E}"
 EndProject
 Global
@@ -23,10 +17,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< Updated upstream
-=======
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FADD685D-7D8F-4F89-BFDD-B0ED70098C90}
-	EndGlobalSection
->>>>>>> Stashed changes
 EndGlobal

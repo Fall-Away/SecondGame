@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Player.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\SkillView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
