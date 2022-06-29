@@ -4,64 +4,30 @@ using UnityEngine;
 
 public class Skill : MonoBehaviour
 {
-    
-    [SerializeField] private GameObject _yeonEff;
-
-    [SerializeField] private GameObject _gyeokEff;
-
-    [SerializeField] private GameObject _wiEff;
-
-    [SerializeField] private GameObject _heEff;
-
-    [SerializeField] private GameObject _hwaEff;
-    [SerializeField] private GameObject _paEff;
-    [SerializeField] private GameObject _ryuEff;
-
     float coolTime;
 
-    
+    public int selectedSK = 9;
     void Update()
     {
         coolTime += Time.deltaTime;
-
-        Yeon();
-        Hwa();
-        Pa();
-        Ryu();
+        SwitchingBullet();
+        SelectSkill();
     }
-
-    void Yeon()
+    public void SelectSkill()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && coolTime >= 2)
+        int i = 0;
+        foreach (Transform weapon in transform)
         {
-            Instantiate(_yeonEff, transform.position, Quaternion.identity);
-            coolTime = 0;
-
-            Debug.Log("연 - 격, 위, 해");
+            if (i == selectedSK) { weapon.gameObject.SetActive(true); }
+            else { weapon.gameObject.SetActive(false); }
+            i++;
         }
     }
-    void Hwa()
+    void SwitchingBullet()
     {
-        if (Input.GetKeyDown(KeyCode.W) && coolTime >= 2)
-        {
-            Instantiate(_hwaEff, transform.position, Quaternion.identity);
-            coolTime = 0;
-        }
-    }
-    void Pa()
-    {
-        if (Input.GetKeyDown(KeyCode.E) && coolTime >= 2)
-        {
-            Instantiate(_paEff, transform.position, Quaternion.identity);
-            coolTime = 0;
-        }
-    }
-    void Ryu()
-    {
-        if (Input.GetKeyDown(KeyCode.R) && coolTime >= 2)
-        {
-            Instantiate(_ryuEff, transform.position, Quaternion.identity);
-            coolTime = 0;
-        }
+        if (Input.GetKeyDown(KeyCode.Q)) { if (selectedSK != 9) { return; } selectedSK = 0;  }
+        if (Input.GetKeyDown(KeyCode.W)) { if (selectedSK != 9) { return; } selectedSK = 1; }
+        if (Input.GetKeyDown(KeyCode.E)) { if (selectedSK != 9) { return; } selectedSK = 2; }
+        if (Input.GetKeyDown(KeyCode.R)) { if (selectedSK != 9) { return; } selectedSK = 3; }
     }
 }
