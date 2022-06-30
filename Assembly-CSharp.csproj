@@ -56,13 +56,15 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\ForthSkill.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Minseong\SkillView.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\SecondSkill.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\ThirdSkill.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\FirstSkill.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Dongyeop\UI\SetingPanel.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Minseong\Player.cs" />
-    <Compile Include="Assets\01.Scripts\Dev\Minseong\FirstSkill.cs" />
-    <Compile Include="Assets\01.Scripts\Dev\Minseong\SecondSkill.cs" />
-    <Compile Include="Assets\01.Scripts\Dev\Minseong\ThirdSkill.cs" />
-    <Compile Include="Assets\01.Scripts\Dev\Minseong\ForthSkill.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\SkillEffSpawn.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\Public.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
