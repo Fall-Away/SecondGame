@@ -3,7 +3,11 @@ Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revis
 <<<<<<< HEAD
 OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ko' Physical Memory: 16121 MB
 =======
+<<<<<<< HEAD
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ko' Physical Memory: 16121 MB
+=======
 OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ko' Physical Memory: 16121 MB
+>>>>>>> main
 >>>>>>> main
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
@@ -15,6 +19,21 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
+D:/SecondGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51239
+Successfully changed project path to: D:/SecondGame
+D:/SecondGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 172.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SecondGame/Assets
+=======
 <<<<<<< HEAD
 C:/Users/user/Desktop/동아리/Fall_Away/SecondGame
 -logFile
@@ -44,17 +63,33 @@ Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GAME_DEVELOPMENT/GitHub/SecondGame/Assets
 >>>>>>> main
+>>>>>>> main
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   
     VRAM:     3990 MB
-    Driver:   30.0.15.1215
+    Driver:   27.21.14.6235
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 176.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2059ms)
+		BeginReloadAssembly (239ms)
+=======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
@@ -95,10 +130,28 @@ Domain Reload Profiling:
 	ReloadAssembly (417ms)
 		BeginReloadAssembly (44ms)
 >>>>>>> Stashed changes
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1586ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (490ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (639ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+=======
 			CreateAndSetChildDomain (1ms)
 <<<<<<< Updated upstream
 <<<<<<< HEAD
@@ -142,12 +195,25 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (59ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 >>>>>>> Stashed changes
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.010446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 170.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3771ms)
+		BeginReloadAssembly (466ms)
+=======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 Registered in 0.002306 seconds.
@@ -181,10 +247,44 @@ Domain Reload Profiling:
 	ReloadAssembly (798ms)
 		BeginReloadAssembly (105ms)
 >>>>>>> Stashed changes
+>>>>>>> main
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (3108ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (932ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (1336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (170ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2216 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 3.164100 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.787200 ms  DeleteObjects: 0.184400 ms)
+=======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 			CreateAndSetChildDomain (20ms)
@@ -261,6 +361,7 @@ Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2657.
 <<<<<<< Updated upstream
 Total: 2.435700 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.022100 ms  DeleteObjects: 0.082300 ms)
 >>>>>>> main
+>>>>>>> main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -273,6 +374,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
@@ -667,4 +770,5 @@ Start importing Assets/00.Scenes/Dev/Damin/damin].unity using Guid(abf624ff0c233
   artifactKey: Guid(b9e1fcc16220d664ebfd51aceb82fb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/00.Scenes/Dev/Mingyo/Mingyo.unity using Guid(b9e1fcc16220d664ebfd51aceb82fb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed55fdd83b60e060831a20db2d958203') in 0.014528 seconds 
 >>>>>>> Stashed changes
+>>>>>>> main
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
