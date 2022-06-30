@@ -9,8 +9,13 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637920969966236654
     m_Hash: 3096603333
+=======
+      ticks: 637921951278225517
+    m_Hash: 1210271494
+>>>>>>> Stashed changes
   m_LockFileStatus:
 <<<<<<< HEAD
     m_FilePath: "C:/Users/user/Desktop/\uB3D9\uC544\uB9AC/Fall_Away/SecondGame/Packages/packages-lock.json"
@@ -21,8 +26,13 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637920969966334571
     m_Hash: 4101564335
+=======
+      ticks: 637921951278235485
+    m_Hash: 2425293117
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
