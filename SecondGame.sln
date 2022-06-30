@@ -1,9 +1,14 @@
 ﻿
+<<<<<<< Updated upstream
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 <<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2e008dbe-21e0-0b20-fb46-6562a6d9cc4e}"
 =======
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{BE8D002E-E021-200B-FB46-6562A6D9CC4E}"
 >>>>>>> main
 EndProject
