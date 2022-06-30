@@ -14,7 +14,7 @@ public class enemyMove : MonoBehaviour
     float movespeed;
     int rnadomwait; 
     Rigidbody2D rb2d;
-    public float distoplayer;
+    private float distoplayer;
     public GameObject enemyBullet;
     public float attackdistance;
    public Transform bullettr;
@@ -41,7 +41,8 @@ public class enemyMove : MonoBehaviour
        reoledwiat+=Time.deltaTime;
         currenttime+=Time.deltaTime;
          distoplayer = Vector2.Distance(transform.position,player.position);
-        if(distoplayer<agroRange)
+      
+         if(distoplayer<agroRange)
         {
           ChasePlayer(); 
         }
@@ -57,18 +58,28 @@ if(currenttime>creattime){
 if(reroledtime<reoledwiat){
    StartCoroutine("shot");
 }
+else
+{
+      if(distoplayer<agroRange)
+        {
+          ChasePlayer(); 
+        }
+        else
+        {
+         SotpChase();
+        }
+}
 
 }
-else if(reoledwiat<reroledtime){
+/*else if(reoledwiat<reroledtime){
     StopCoroutine("shot");
     
 }
         }
-        else
+    /*    else
         {
-            //ChasePlayer();
-             
-            Invoke("ChasePlayer",1);
+    ChasePlayer();
+        }*/
         }
     }
     void ChasePlayer()
@@ -98,26 +109,27 @@ else if(reoledwiat<reroledtime){
     {
        rb2d.velocity = new Vector3(0,0,0);
     }
-    private IEnumerator shot()
+     IEnumerator shot()
     {
-        SotpChase();
+  rb2d.velocity = new Vector3(0,0,0);
     shoting=true;
         yield return new WaitForSeconds(reroledtime);
             
         Instantiate(enemyBullet, bullettr.transform.position,transform.rotation);
         currenttime=0;
-                 SotpChase();
+                 //SotpChase();
                
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 shoting=false;
+ChasePlayer();
 
     }
-    void shotnoco(){
-            SotpChase();
+    // void shotnoco(){
+    //         SotpChase();
       
-            reroledtime=0;
-        Instantiate(enemyBullet, bullettr.transform.position,transform.rotation);
-        currenttime=0;
+    //         reroledtime=0;
+    //     Instantiate(enemyBullet, bullettr.transform.position,transform.rotation);
+    //     currenttime=0;
       
-    }
+    // }
 }

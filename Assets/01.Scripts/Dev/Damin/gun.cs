@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class gun : MonoBehaviour
 {
+
     //enemyMove en;
     Rigidbody2D rb;
     Vector3 vec;
@@ -19,12 +20,22 @@ public class gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
-       transform.position = enemypos.position;
+        transform.position = enemypos.position;
+       if(transform.position.x<playerpos.position.x)
+       {
+       // rb.rotation+=180;
+           transform.eulerAngles = new Vector3(0,180,0);
+       }
+       else
+       {
+         // rb.rotation-=180;
+        transform.eulerAngles = new Vector3(0,0,0);  
+       }/*
+      
     Vector3 direction = playerpos.position -transform.position;
         float angel = Mathf.Atan2(direction.y ,direction.x)* Mathf.Rad2Deg;
            rb.rotation= angel;
-
-    /*    if(Input.GetKeyDown(KeyCode.H))
+      if(Input.GetKeyDown(KeyCode.H))
         {
             transform.eulerAngles= new Vector3(0,0,30);
 
