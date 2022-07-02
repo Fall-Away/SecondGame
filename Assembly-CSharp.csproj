@@ -56,6 +56,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Assets\01.Scripts\Dev\Dongyeop\UI\SetingPanel.cs" />
+    <Compile Include="Assets\01.Scripts\Dev\Dongyeop\UI\Tip.cs" />
+=======
     <Compile Include="Assets\01.Scripts\Dev\Minseong\Skill\ForthSkill.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Damin\enemyMove.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Damin\alpha.cs" />
@@ -71,6 +75,7 @@
     <Compile Include="Assets\01.Scripts\Dev\Damin\PlayerMove.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Dongyeop\UI\SetingPanel.cs" />
     <Compile Include="Assets\01.Scripts\Dev\Minseong\Player.cs" />
+>>>>>>> main
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -726,12 +731,15 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
+>>>>>>> main
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>

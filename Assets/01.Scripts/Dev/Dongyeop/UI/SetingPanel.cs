@@ -54,7 +54,7 @@ public class SetingPanel : MonoBehaviour //ESC를 눌렀을떄 나오는 패널을 남은겁니
             {
                 _dir = Vector3.zero;
                 StopCoroutine(PanelMain());
-                Time.timeScale = 0;
+                Time.timeScale = 1;
                 _panelMain = false;
                 break;
             }
