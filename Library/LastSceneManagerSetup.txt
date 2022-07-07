@@ -1,5 +1,17 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/00.Scenes/Dev/Minseong/Minseong.unity
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+- path: Assets/00.Scenes/Dev/Mingyo/Stage_8.unity
+=======
+- path: Assets/00.Scenes/Dev/Damin/Damin.unity
+>>>>>>> main
+=======
+- path: Assets/00.Scenes/Dev/Mingyo/Mingyo.unity
+>>>>>>> Stashed changes
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
