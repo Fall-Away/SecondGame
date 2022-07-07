@@ -8,7 +8,6 @@ public class SkillView : MonoBehaviour
     float fadeRate = 0;
     void Start()
     {
-        
     }
 
     void Update()
