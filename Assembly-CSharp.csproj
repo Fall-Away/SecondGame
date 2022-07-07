@@ -37,12 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\01.Scripts\Dev\Damin\enemyMove.cs" />
+     <Compile Include="Assets\01.Scripts\Dev\Damin\alpha.cs" />
      <Compile Include="Assets\01.Scripts\Dev\Damin\attack.cs" />
      <Compile Include="Assets\01.Scripts\Dev\Damin\gun.cs" />
+     <Compile Include="Assets\01.Scripts\Dev\Damin\boss.cs" />
      <Compile Include="Assets\01.Scripts\Dev\Damin\PlayerMove.cs" />
      <Compile Include="Assets\01.Scripts\Dev\Dongyeop\UI\SetingPanel.cs" />
-     <Compile Include="Assets\01.Scripts\Dev\Damin\boss.cs" />
-     <Compile Include="Assets\01.Scripts\Dev\Damin\alpha.cs" />
+     <Compile Include="Assets\01.Scripts\Dev\Damin\bcb.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

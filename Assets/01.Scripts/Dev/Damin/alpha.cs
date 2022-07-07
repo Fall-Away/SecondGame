@@ -15,29 +15,27 @@ public class alpha : MonoBehaviour
 
     Rigidbody2D rb2d;
     public float distoplayer;
-    //public GameObject enemyBullet;
 
-  // public Transform bullettr;
    [SerializeField]
    private float currenttime;
    [SerializeField]
    private float creattime;
-      public bool isright=false;
+   //   public bool isright=false;
       private bool ischase =false;
-      public bool isleft=false;
-    
-  
-    // Start is called before the first frame update
+   //   public bool isleft=false;
+ 
+      Vector3 vec =Vector3.zero;
+ 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
     
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-       
+       transform.position+=movespeed*vec*Time.deltaTime;
       
         currenttime+=Time.deltaTime;
          distoplayer = Vector2.Distance(transform.position,player.position);
@@ -48,17 +46,18 @@ public class alpha : MonoBehaviour
         // StartCoroutine(vecteorpos()) ;
         }
    
-
+/*
 if(isright)
 {
-       rb2d.velocity = new Vector3(movespeed,0);  
+       //rb2d.velocity = new Vector3(movespeed,0);  
       transform.eulerAngles = new Vector3(0,180,0);
 }
 if(isleft)
 {
-    rb2d.velocity = new Vector3(-movespeed,0);
+    //rb2d.velocity = new Vector3(-movespeed,0);
           transform.eulerAngles = new Vector3(0,0,0);    
 }
+*/
     }
     void ChasePlayer()
     {
@@ -89,20 +88,21 @@ if(isleft)
     }
     private void vecteorpos()
     {
-      if(!ischase)
-      {
+    if(!ischase)
+     {
           if(transform.position.x<player.position.x)
      {
     
  
-      isright=true;
-        
+    //  isright=true;
+               transform.eulerAngles = new Vector3(0,180,0);
+       vec=Vector3.right;
+      
      }
      else
      {
-        isleft=true;
-
-      
+     //   isleft=true;
+   vec=Vector3.left;
      }
       }
       ischase=true;
